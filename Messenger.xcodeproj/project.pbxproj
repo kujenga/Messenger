@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		86B435611D80BD3B00E7F135 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B435601D80BD3B00E7F135 /* AppDelegate.swift */; };
-		86B435631D80BD3B00E7F135 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B435621D80BD3B00E7F135 /* ViewController.swift */; };
+		86B435631D80BD3B00E7F135 /* MessengerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B435621D80BD3B00E7F135 /* MessengerViewController.swift */; };
 		86B435651D80BD3B00E7F135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86B435641D80BD3B00E7F135 /* Assets.xcassets */; };
 		86B435681D80BD3B00E7F135 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B435661D80BD3B00E7F135 /* Main.storyboard */; };
 		86B435731D80BD3B00E7F135 /* MessengerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B435721D80BD3B00E7F135 /* MessengerTests.swift */; };
@@ -35,7 +35,7 @@
 /* Begin PBXFileReference section */
 		86B4355D1D80BD3B00E7F135 /* Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B435601D80BD3B00E7F135 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		86B435621D80BD3B00E7F135 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86B435621D80BD3B00E7F135 /* MessengerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerViewController.swift; sourceTree = "<group>"; };
 		86B435641D80BD3B00E7F135 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86B435671D80BD3B00E7F135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86B435691D80BD3B00E7F135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				86B435601D80BD3B00E7F135 /* AppDelegate.swift */,
-				86B435621D80BD3B00E7F135 /* ViewController.swift */,
+				86B435621D80BD3B00E7F135 /* MessengerViewController.swift */,
 				86B435641D80BD3B00E7F135 /* Assets.xcassets */,
 				86B435661D80BD3B00E7F135 /* Main.storyboard */,
 				86B435691D80BD3B00E7F135 /* Info.plist */,
@@ -255,7 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86B435631D80BD3B00E7F135 /* ViewController.swift in Sources */,
+				86B435631D80BD3B00E7F135 /* MessengerViewController.swift in Sources */,
 				86B435611D80BD3B00E7F135 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
