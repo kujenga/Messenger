@@ -72,6 +72,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		863A88E61DA5EEB800FCA50A /* WebKit Private */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "WebKit Private";
+			sourceTree = "<group>";
+		};
 		86B435541D80BD3B00E7F135 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +104,7 @@
 			children = (
 				86B435601D80BD3B00E7F135 /* AppDelegate.swift */,
 				86B435621D80BD3B00E7F135 /* MessengerViewController.swift */,
+				863A88E61DA5EEB800FCA50A /* WebKit Private */,
 				86B435641D80BD3B00E7F135 /* Assets.xcassets */,
 				86B435661D80BD3B00E7F135 /* Main.storyboard */,
 				86B435691D80BD3B00E7F135 /* Info.plist */,
@@ -190,7 +198,9 @@
 				TargetAttributes = {
 					86B4355C1D80BD3B00E7F135 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = S3J28JE2MY;
 						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
 					};
 					86B4356D1D80BD3B00E7F135 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -389,7 +399,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S3J28JE2MY;
 				INFOPLIST_FILE = Messenger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.ataylor.Messenger;
@@ -402,7 +414,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S3J28JE2MY;
 				INFOPLIST_FILE = Messenger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.ataylor.Messenger;

@@ -18,7 +18,6 @@ class MessengerViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        NSLog("bundle identifier: \(Bundle.main.bundleIdentifier!)")
         self.webView.applicationNameForUserAgent = Bundle.main.bundleIdentifier!
 
         self.reload()
